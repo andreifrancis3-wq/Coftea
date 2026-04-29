@@ -1,0 +1,17 @@
+{
+  "name": "coftea",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend",
+    "lint": "npm run lint --workspace frontend"
+  },
+  "dependencies": {
+    "mysql2": "^3.15.2"
+  }
+}
